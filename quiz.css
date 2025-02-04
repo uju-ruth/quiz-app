@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  #quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  
+  #submit-button:hover, #prev-button:hover,#next-button:hover {
+    background-color:#E91E63 ;
+    transition: 0.5s ease-in;
+  }
+  
+  #result-container {
+    margin-top: 20px;
+  }
+  
+  .nav-con{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #submit-button{
+    background-color:  #4CAF50;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+   padding-left:7px;
+   padding-right:7px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+  }
+  #prev-button, #next-button{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    border:none;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  #navigation{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .instruct{
+    font-size: 14px;
+    color: red;
+  }
+  
+  .question-text {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .ans{
+    font-size: 14px;
+  }

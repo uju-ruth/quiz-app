@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+  <div id="quiz-container">
+    <h2>Quiz App</h2>
+    <p class="instruct">Welcome to Techhub quiz. Please answer all the questions below. You will be graded at the end of the quiz </p>
+    <div id="question-container">
+      <!-- Question will go here -->
+    </div>
+
+    <div id="options-container">
+      <!-- Options will go here -->
+    </div>
+    
+    <div class="nav-con">
+        <div id="navigation">
+          <button id="prev-button" onclick="navigate(-1)"></button>
+          <button id="next-button" onclick="navigate(1)">></button>
+        </div>
+    
+        <button id="submit-button" onclick="submitQuiz()">Submit</button>
+    </div>
+
+
+    <div id="result-container" style="display: none;">
+      <!-- Result will go here -->
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
